@@ -1,0 +1,249 @@
+/* reset css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* defining body color */
+body{
+    background-color: #000;
+}
+
+/* logo section */
+.container {
+  z-index:1000;
+  height: 4rem;
+  display: flex;
+  top:0;
+  left:0;
+  margin:0 auto;
+  padding-top:20px;
+  position: absolute;
+  width: 100%;
+  max-width: 1920px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container img {
+  width: 13%;
+}
+.container a {
+  background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 5px;
+}
+
+/* logo section end */
+
+/*banner section */
+
+.banner{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner::before{
+    content:'';
+    height:300px;
+    width:100%;
+    position: absolute;
+    background: linear-gradient(to bottom,#000,transparent);
+    top:0;
+    left:0;
+}
+
+.banner::after{
+    content:'';
+    height:300px;
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background: linear-gradient(to top,#000,transparent);
+
+}
+
+.banner img{
+    z-index:-1;
+    position: absolute;
+    height: 100vh;
+    width:100%;
+    object-fit: cover;
+}
+
+.banner .box{
+    text-align: center;
+}
+
+.banner .box .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.banner .box .heading h1{
+    color:#fff;
+    font-weight:bold;
+    text-align: center;
+    font-size:3.125rem;
+    max-width: 640px;
+    letter-spacing: 2px;
+    
+}
+
+.banner .box .heading h2{
+    color:#fff;
+    max-width:640px;
+    font-size:1.625rem;
+    font-weight: 400;
+    padding:1rem 0;
+
+}
+
+.banner .box .heading p{
+    color:#fff;
+    font-size:1.2rem;
+    font-weight: 500;
+    padding:15px 0;
+    padding-bottom:20px;
+}
+
+.banner .search input{
+    min-width: 400px;
+    display: block;
+    height: 60px;
+    font-size: 16px;
+    outline: none;
+    padding: 10px 10px 0 0;
+    border-radius: 2px;
+    color:#000;
+}
+
+.banner .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.banner .search a{
+    text-decoration: none;
+    background-color: #e50914;
+    color:#fff;
+    min-width: 360px;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    border-radius: 2px;
+    font-size:1.625rem;
+}
+
+/* banner section end */
+
+/* part1 section */
+.part1{
+    border-top: 0.6rem solid #111;
+    display: flex;
+    padding:2rem 4rem;
+    align-items: center;
+    border-bottom: 0.6rem solid #111;
+    justify-content: space-around;
+}
+
+.part1 .talk{
+    width:40%;
+}
+.part1 .img{
+    width:45%;
+}
+
+.part1 .img img{
+    width: 100%;
+}
+.part1 .talk h1{
+    color:#fff;
+    font-size:3.3rem;
+    letter-spacing: 2px;
+    padding-bottom:10px;
+}
+
+.part1 .talk p{
+    color:#fff;
+    font-size:1.6rem;
+}
+
+/* part1 section end */
+.part2{
+    display: flex;
+    padding:2rem 4rem;
+    align-items: center;
+    border-bottom: 0.6rem solid #111;
+    justify-content: space-around;
+}
+
+.part2 .talk{
+    width:48%;
+}
+.part2 .img{
+    width:45%;
+}
+
+.part2 .img img{
+    width: 100%;
+}
+.part2 .talk h1{
+    color:#fff;
+    font-size:3.3rem;
+    letter-spacing: 2px;
+    padding-bottom:10px;
+}
+
+.part2 .talk p{
+    color:#fff;
+    font-size:1.6rem;
+}
+/* part2 section end*/
+
+/* part3 section start */
+
+.part3{
+    display: flex;
+    padding:2rem 4rem;
+    align-items: center;
+    border: bottom 0.6rem solid #111;
+    justify-content: space-around;
+}
+
+.part3 .talk{
+    width:40%;
+}
+.part3 .img{
+    width:45%;
+}
+
+.part3 .img img{
+    width: 100%;
+}
+.part3 .talk h1{
+    color:#fff;
+    font-size:3.3rem;
+    letter-spacing: 2px;
+    padding-bottom:10px;
+}
+
+.part3 .talk p{
+    color:#fff;
+    font-size:1.6rem;
+}
+
+/* part3 section end */
